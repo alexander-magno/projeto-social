@@ -42,6 +42,10 @@ section#telefone {
     
 }
 
+div#responsivo {
+    
+}
+
 iframe#tela {
     position: relative;
     top: 80px;
@@ -68,4 +72,16 @@ section#redes-sociais img {
     box-sizing: border-box;
     transition: transform .5s;
     
+}
+
+@media (max-width: 375px) {
+    section#redes-sociais img {
+    width: 20px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(58, 55, 55);
+    box-sizing: border-box;
+    transition: transform .5s;
+    text-align: center;
+    }
 }
